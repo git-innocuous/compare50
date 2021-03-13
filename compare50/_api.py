@@ -106,7 +106,8 @@ def compare(scores, ignored_files, pass_):
 def missing_spans(file, original_tokens=None, processed_tokens=None):
     """
     :param file: file to be examined
-    :type file: :class:`compare50.File` :param original_tokens: the unprocessed tokens of ``file``. May be \
+    :type file: :class:`compare50.File`
+    :param original_tokens: the unprocessed tokens of ``file``. May be \
             optionally specified if ``file`` has been tokenized elsewhere to avoid \
             tokenizing it again.
     :param processed_tokens: the result of preprocessing the tokens of ``file``. \
